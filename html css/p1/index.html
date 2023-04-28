@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>project 1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+    <div>
+        <div class="sidebar" style="display:none" id="mySidebar">
+            <button onclick="w3_close()" class="c4">Close &times;</button>
+            <p class="c3">Food</p>
+            <p class="c3">About</p>
+        </div>
+        <div class="nav">
+            <button class="c16" onclick="w3_open()">☰</button>
+            <p class="c5">My Food</p>
+            <p class="c5">Mail</p>
+        </div>
+    </div>
+    <div class="c1">
+        <div class="c2">
+            <img src="./img/sandwich.jpg" alt="" class="img1">
+            <h3>The Perfect Sandwich, A Real NYC Classic</h3>
+            <p>Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+        </div>
+        <div class="c2">
+            <img src="./img/steak.jpg" alt="" class="img1">
+            <h3>Let Me Tell You About This Steak</h3>
+            <p>Once again, some random text to lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+        </div>
+        <div class="c2">
+            <img src="./img/cherries.jpg" alt="" class="img1">
+            <h3>Cherries, interrupted</h3>
+            <p>Lorem ipsum text praesent tincidunt ipsum lipsum.
+                <br />
+                What else?
+            </p>
+        </div>
+        <div class="c2">
+            <img src="./img/wine.jpg" alt="" class="img1">
+            <h3>Once Again, Robust Wine and Vegetable Pasta</h3>
+            <p>Lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+        </div>
+        <div class="c2">
+            <img src="./img/popsicle.jpg" alt="" class="img1">
+            <h3>All I Need Is a Popsicle</h3>
+            <p>Lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+        </div>
+        <div class="c2">
+            <img src="./img/salmon.jpg" alt="" class="img1">
+            <h3>Salmon For Your Skin</h3>
+            <p>Once again, some random text to lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+        </div>
+        <div class="c2">
+            <img src="./img/sandwich.jpg" alt="" class="img1">
+            <h3>The Perfect Sandwich, A Real NYC Classic</h3>
+            <p>Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+        </div>
+        <div class="c2">
+            <img src="./img/croissant.jpg" alt="" class="img1">
+            <h3>Le French</h3>
+            <p>Lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+        </div>
+    </div>
+    <div class="c6">
+        <p class="c7">&lt</p>
+        <p class="c7">1</p>
+        <p class="c7">2</p>
+        <p class="c7">3</p>
+        <p class="c7">4</p>
+        <p class="c7">&gt</p>
+    </div>
+    <hr />
+
+    <div class="c9">
+        <h3>About Me, The Food Man</h3>
+        <img src="img/chef.jpg" alt="" class="c8">
+        <h4>I am Who I Am!</h4>
+        <p>With Passion For Real, Good Food</p>
+        <br />
+        <p style="text-align: center">Just me, myself and I, exploring the universe of unknownment. I have a heart of
+            love and an interest of lorem ipsum and mauris neque quam blog. I want to share my world with you. Praesent
+            tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida
+            diam non fringilla. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus
+            vitae, ultricies congue gravida diam non fringilla.</p>
+    </div>
+
+    <hr>
+
+    <div class="c10">
+        <div class="c14">
+            <h3>FOOTER</h3>
+            <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies
+                congue gravida diam non fringilla.</p>
+            <p>Powered by <a href="https://www.w3schools.com/">w3.css</a></p>
+        </div>
+        <div class="c14">
+            <h3>BLOG POSTS</h3>
+            <div class="c12">
+                <div>
+                    <img class="c11" src="img/workshop.jpg" alt="">
+                </div>
+                <div>
+                    <p class="c13" style="font-size: 25px">Lorem </p>
+                    <p class="c13">Sed mattis nunc</p>
+                </div>
+            </div>
+            <hr>
+            <div>
+                <div>
+                    <img class="c11" src="img/gondol.jpg" alt="">
+                </div>
+                <div>
+                    <p class="c13" style="font-size: 25px">Ipsum </p>
+                    <p class="c13">Praes tinci sed</p>
+                </div>
+            </div>
+        </div>
+        <div class="c14">
+            <h3>POPULAR TAGS</h3>
+            <button class="c15">Travel</button>
+            <button class="c15">Dressing</button>
+            <button class="c15">Chicken</button>
+            <button class="c15">Cuisine</button>
+            <button class="c15">Flavors</button>
+            <button class="c15">Ideas</button>
+            <button class="c15">Drinks</button>
+            <button class="c15">France</button>
+            <button class="c15">Salmon</button>
+            <button class="c15">Dinner</button>
+        </div>
+        <div></div>
+        <div></div>
+    </div>
+
+</body>
+<script>
+    function w3_open() {
+        document.getElementById("mySidebar").style.display = "block";
+        console.log("hi");
+    }
+
+    function w3_close() {
+        document.getElementById("mySidebar").style.display = "none";
+        console.log("hello");
+    }
+
+</script>
+
+</html>
